@@ -129,7 +129,7 @@ width: 22px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    gap:4rem;
+    gap:3.4rem;
   padding: 2.2rem 6rem;
 }
 
@@ -335,3 +335,35 @@ gap: 1rem;
     width: 35px;
 }
 /* end main section */
+
+
+
+/* side foot */
+.sidefoot{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -4rem;
+    gap:0.5rem;
+    margin-top: -1rem;
+}
+
+.sidefoot a{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.sidefoot ul{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    list-style: none;
+}
+
+.sidefoot ul img{
+    width: 20px;
+}
+
+
+/* end side foot */
